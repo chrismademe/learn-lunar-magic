@@ -1,0 +1,28 @@
+{
+    "name": "11ty-starter",
+    "version": "1.0.0",
+    "description": "A starter kit for 11ty that takes care of the faff for you.",
+    "main": ".eleventy.js",
+    "scripts": {
+        "build": "npx @11ty/eleventy",
+        "dev": "npm run serve",
+        "serve": "npx @11ty/eleventy --serve",
+        "serveStatic": "npx serve _site",
+        "test": "npm-run-all --parallel serve testSite",
+        "testSite": "npx cypress open"
+    },
+    "author": "Chris Galbraith",
+    "license": "MIT",
+    "devDependencies": {
+        "@11ty/eleventy": "^0.10.0",
+        "@11ty/eleventy-navigation": "^0.1.5",
+        "autoprefixer": "^9.8.4",
+        "clean-css": "^4.2.3",
+        "cypress": "^3.8.0",
+        "node-yaml": "^4.0.1",
+        "npm-run-all": "^4.1.5",
+        "postcss": "^7.0.32",
+        "postcss-import": "^12.0.1",
+        "tailwindcss": "^1.4.6"
+    }
+}
