@@ -1,3 +1,14 @@
+@import 'typescale.css';
+@import 'tokens.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.lunar-magic-window {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url('assets/images/lunar-magic-window.png');
+
+    background-position: center center;
+    background-size: cover cover;
+}

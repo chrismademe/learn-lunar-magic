@@ -12,7 +12,7 @@ module.exports = (config) => {
     });
 
     // Watch config for changes
-    config.addWatchTarget('site.yml');
+    config.addWatchTarget('tailwind.config.js');
 
     // Handle 404 locally
     config.setBrowserSyncConfig({

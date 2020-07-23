@@ -43,9 +43,9 @@ module.exports = {
             center: true,
         },
         fontFamily: {
-            sans: ['Source Sans Pro', ...defaultTheme.fontFamily.sans],
-            mono: ['IBM Plex Mono', ...defaultTheme.fontFamily.mono],
-            retro: ['Press Start 2P', ...defaultTheme.fontFamily.mono],
+            sans: ['"Source Sans Pro"', ...defaultTheme.fontFamily.sans],
+            mono: ['"IBM Plex Mono"', ...defaultTheme.fontFamily.mono],
+            retro: ['"Press Start 2P"', ...defaultTheme.fontFamily.mono],
         },
         fontSize: {
             xs: 'var(--step--2)',
